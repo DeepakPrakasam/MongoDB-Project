@@ -40,6 +40,7 @@ app.get("/mdbcr", (req, res) => {
 app.get("/mdbre", (req, res) => {
     res.sendFile(__dirname + "/mongodbread.html");
 });
+
 app.get("/mdbup", (req, res) => {
     res.sendFile(__dirname + "/mongodbupdate.html");
 });
